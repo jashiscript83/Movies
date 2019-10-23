@@ -1,0 +1,348 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image:
+		url("http://www.españaescultura.es/export/sites/cultura/multimedia/galerias/eventos/pelicula_cinematografica_s60103096.jpg_5796651.jpg");
+}
+
+.card {
+	color: cornflowerblue;
+	/* background-image:
+		url("https://previews.123rf.com/images/jemastock/jemastock1610/jemastock161003770/63998264-rollo-de-pel%C3%ADcula-y-palomitas-de-ma%C3%ADz-icono-pel%C3%ADcula-de-cine-de-pel%C3%ADculas-de-v%C3%ADdeo-y-el-tema-de-entretenimient.jpg"); */
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.9;
+}
+
+.boucher {
+	background-color: white;
+}
+
+h2 {
+	font-size: 100px;
+	color: brown;
+	text-align: center;
+}
+
+input[type=text] {
+	display: inline-block;
+ 
+zoom: 1; /* ie7 hack para display:inline-block */
+ 
+*display: inline;
+ 
+border: solid 1px #d2d2d2;
+ 
+padding: 3px 5px;
+ 
+-webkit-border-radius: 2em;
+ 
+-moz-border-radius: 2em;
+ 
+border-radius: 2em;
+ 
+-webkit-box-shadow: 0 1px 0px rgba(0,0,0,.1);
+ 
+-moz-box-shadow: 0 1px 0px rgba(0,0,0,.1);
+ 
+box-shadow: 0 1px 0px rgba(0,0,0,.1);
+ 
+background: #f1f1f1;
+ 
+background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+ 
+background: -moz-linear-gradient(top,  #fff,  #ededed);
+ 
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); /* ie7 */
+ 
+-ms-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); /* ie8 */
+ 
+}
+ 
+.searchform input {
+ 
+font: normal 12px/100% Arial, Helvetica, sans-serif;
+ 
+}
+ 
+.searchform .searchfield {
+ 
+background: #fff;
+ 
+padding: 6px 6px 6px 8px;
+ 
+width: 250px;
+ 
+border: solid 1px #bcbbbb;
+ 
+outline: none;
+ 
+-webkit-border-radius: 2em;
+ 
+-moz-border-radius: 2em;
+ 
+border-radius: 2em;
+ 
+-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+ 
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+ 
+box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+
+}
+input{
+
+	width: 25%;
+	
+}
+.search {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5%;
+	
+}
+
+button {
+	width: 30%;
+	font-size: 13px;
+	/* 	font-weight: bold;
+ */
+	font-family: cursive;
+	text-align: center;
+	opacity: 0.9;
+}
+
+.center {
+	margin-left: 28%;
+	margin-top: 2%;
+	text-align: left;
+}
+
+.head {
+	display: flex;
+	flex-direction: row;
+}
+
+img {
+	width: 13%;
+}
+
+.cart {
+	margin-top: 4%;
+	margin-left: 5%;
+}
+
+.items {
+	color: black;
+	font-style: italic;
+	font-family: fantasy;
+	width: 5%;
+	background-color: #a52a2a;
+	border-radius: 5%;
+}
+
+.secondImage {
+	width: 90%;
+	position: absolute;
+	right: -200%;
+}
+
+.total {
+	background-color: white;
+	font-style: oblique;
+	font-size: x-large;
+}
+
+button:hover {
+	color: red;
+}
+
+.buttonBack {
+	margin: 3%;
+}
+
+.buttonBack a {
+	color: white;
+}
+
+.order {
+	color: blue;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+@import url(https://fonts.googleapis.com/css?family=Candal);
+
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+
+.chrome {
+	position: relative;
+	background-image: -webkit-linear-gradient(#378DBC 0%, #B6E8F1 46%, #ffffff 50%, #32120E
+		54%, #FFC488 58%, #582C11 90%, #EC9B4E 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 4px #f5f5f5;
+	font-size: 120px;
+	font-family: 'Titillium Web', sans-serif;
+	font-style: italic;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-right: -3%;
+	line-height: 1;
+}
+
+.chrome:before {
+	content: '80´S_';
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	background-image: -webkit-linear-gradient(-40deg, transparent 0%, transparent 40%, #fff
+		50%, transparent 60%, transparent 100%);
+	background-position: -680px 0;
+	-webkit-background-clip: text;
+	-webkit-text-stroke: 0;
+	padding-right: 500px;
+	-webkit-animation-name: chrome_effect;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.dreams {
+	position: absolute;
+	margin: 0px;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 100px;
+	color: #F975F7;
+	transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg); IE 9 -webkit-transform : rotate( -15deg);
+	/* Safari and Chrome */ */ */
+	margin-left: 25%;
+	margin-top: -4%;
+	-webkit-text-stroke: 1px #f008b7;
+	-webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+	z-index: 20;
+}
+
+.windows .dreams {
+	-webkit-text-stroke: 4px #f008b7;
+}
+
+.vectro {
+	position: relative;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 0.1px #f1f1f1;
+	font-family: 'Righteous', cursive;
+	font-size: 160px;
+	margin: 150px 0 50px 0;
+}
+
+@-webkit-keyframes chrome_effect {
+  0% {background-position:-680px 0;}
+  10% {background-position:420px 0;}
+  100% {background-position:420px 0;}
+}
+
+@-webkit-keyframes cop_before_effect {
+  0% {
+    left: 51px;
+    top: 74px;
+    opacity: 0;}
+  
+  15% {
+    left: 51px;
+    top: 74px;
+    opacity: 1;}
+  
+  30% {
+    left: 51px;
+    top: 74px;
+    opacity: 0;}
+  
+  35% {
+    left: 370px;
+    top: 45px;
+    opacity: 0;}
+   
+  50% {
+    left: 370px;
+    top: 45px;
+    opacity: 1;}
+  
+  65% {
+    left: 370px;
+    top: 45px;
+    opacity: 0;}
+  
+  70% {
+    left: 564px;
+    top: 74px;
+    opacity: 0;}
+   
+  85% {
+    left: 564px;
+    top: 74px;
+    opacity: 1;}
+  
+  100% {
+    left: 564px;
+    top: 74px;
+    opacity: 0;}
+}
+
+@-webkit-keyframes cop_after_effect {
+  0% {
+    left: 90px;
+    top: 32px;
+    opacity: 0;}
+  
+  15% {
+    left: 90px;
+    top: 32px;
+    opacity: 1;}
+  
+  30% {
+    left: 90px;
+    top: 32px;
+    opacity: 0;}
+  
+  35% {
+    left: 413px;
+    top: 11px;
+    opacity: 0;}
+   
+  50% {
+    left: 413px;
+    top: 11px;
+    opacity: 1;}
+  
+  65% {
+    left: 413px;
+    top: 11px;
+    opacity: 0;}
+  
+  70% {
+    left: 603px;
+    top: 32px;
+    opacity: 0;}
+   
+  85% {
+    left: 603px;
+    top: 32px;
+    opacity: 1;}
+  
+  100% {
+    left: 603px;
+    top: 32px;
+    opacity: 0;}
+}
+

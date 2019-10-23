@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+	integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+	crossorigin="anonymous">
+
+<link rel="stylesheet" href="../static/styles.css">
+
+</head>
+<body>
+	<div class="cart" class="container">
+		<div class="row">
+
+			<main id="items" class="col-sm-8 row" style="opacity: 0.9;"></main>
+			
+							<aside class="col-sm-4" style="opacity: 0.9;">
+			
+			<div class="buttonBack">
+					<button type="button" class="btn btn-primary" data-toggle="button"
+						aria-pressed="false" autocomplete="off" >
+						<a href="movies.html">Back</a>
+					</button>
+							
+			</div>
+
+
+			<div class="boucher">
+				<button type="button" class="btn btn-primary btn-lg btn-block">
+					<a>Confirm & Pay</a>
+				</button>
+				
+								
+									
+
+				<ul id="cart" class="list-group"></ul>
+				<hr>
+				<!-- Precio total -->
+				<p class="total" class="text-right">
+					Total: <span id="total"></span>$
+									<img class="cart" src="https://www.thinkupthemes.com/wp-content/uploads/2013/10/Shopping-Cart2.png">
+					
+				</p>
+			</div>
+			</aside>
+		</div>
+	</div>
+</body>
+
+<script src="../static/cart.js">
+	
+</script>
+</html>
